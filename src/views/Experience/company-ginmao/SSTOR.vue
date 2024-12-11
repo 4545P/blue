@@ -16,6 +16,7 @@
       :list="lists"
       inner
       bold
+      type="dl"
     />
   </ProjectWrap>
 </template>

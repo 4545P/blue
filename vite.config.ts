@@ -8,7 +8,6 @@ import prefetchPlugin from 'vite-plugin-bundle-prefetch';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/bule/',
     plugins: [
         vue(),
         compression(),

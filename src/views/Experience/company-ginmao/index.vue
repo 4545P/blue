@@ -15,6 +15,7 @@
     inner
     title-size="base"
     bold
+    type="dl"
   />
 
   <ListWrap
@@ -23,6 +24,7 @@
     inner
     title-size="base"
     bold
+    type="dl"
   />
 
   <WebMoiKcg />

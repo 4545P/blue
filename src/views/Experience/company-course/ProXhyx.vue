@@ -15,6 +15,7 @@
       :list="lists"
       inner
       bold
+      type="ul"
     />
   </ProjectWrap>
 </template>

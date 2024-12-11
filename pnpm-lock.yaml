@@ -388,7 +388,6 @@ packages:
   /@fortawesome/fontawesome-svg-core@6.7.1:
     resolution: {integrity: sha512-8dBIHbfsKlCk2jHQ9PoRBg2Z+4TwyE3vZICSnoDlnsHA6SiMlTwfmW6yX0lHsRmWJugkeb92sA0hZdkXJhuz+g==}
     engines: {node: '>=6'}
-    requiresBuild: true
     dependencies:
       '@fortawesome/fontawesome-common-types': 6.7.1
     dev: false
@@ -396,7 +395,6 @@ packages:
   /@fortawesome/free-solid-svg-icons@6.7.1:
     resolution: {integrity: sha512-BTKc0b0mgjWZ2UDKVgmwaE0qt0cZs6ITcDgjrti5f/ki7aF5zs+N91V6hitGo3TItCFtnKg6cUVGdTmBFICFRg==}
     engines: {node: '>=6'}
-    requiresBuild: true
     dependencies:
       '@fortawesome/fontawesome-common-types': 6.7.1
     dev: false

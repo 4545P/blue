@@ -15,6 +15,7 @@
       :list="saasList"
       inner
       bold
+      type="ul"
     />
 
     <!-- <ListWrap
