@@ -4,8 +4,8 @@
 |:---:|:----:|:-----:|:----:|:----:|:-----:|:--------------------------:|
 | 賴紀滕 | 大學畢業 | 國際企業系 | 2 年  | 在職中  | 後端/全職 | <prosr123692010@gmail.com> |
 
-- 在線簡歷：[https://resume.fridolph.top](https://resume.fridolph.top)
-- Github：[https://github.com/Fridolph](https://github.com/Fridolph)
+- 在線簡歷：[https://blue4545.netlify.app](https://blue4545.netlify.app)
+- Github：[https://github.com/4545P](https://github.com/4545P)
 
 ## 專業技能
 
