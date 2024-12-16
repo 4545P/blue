@@ -46,5 +46,6 @@ const results = computed(() => [
   t('course.l1'),
   t('course.l2'),
   t('course.l3'),
+  t('course.l4'),
 ])
 </script>

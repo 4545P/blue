@@ -35,10 +35,10 @@
             src="https://img.shields.io/badge/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6-Vue3-%236495ed" />
           <img
             alt="Static Badge"
-            src="https://img.shields.io/badge/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80-TypeScript-%25236495ed" />
+            src="https://img.shields.io/badge/%E8%84%9A%E6%9C%AC%E8%AA%9E%E8%A8%80-TypeScript-%25236495ed" />
           <img
               alt="Static Badge"
-              src="https://img.shields.io/badge/UI-fri_element_plus-%238a2be2" />
+              src="https://img.shields.io/badge/UI-Element Plus-%238a2be2" />
         </div>
         <a
           class="flex items-center justify-center p-4 cursor-pointer"
@@ -87,10 +87,10 @@
               src="https://img.shields.io/badge/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6-Vue3-%236495ed" />
           <img
               alt="Static Badge"
-              src="https://img.shields.io/badge/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80-TypeScript-%25236495ed" />
+              src="https://img.shields.io/badge/%E8%84%9A%E6%9C%AC%E8%AA%9E%E8%A8%80-TypeScript-%25236495ed" />
           <img
               alt="Static Badge"
-              src="https://img.shields.io/badge/UI-fri_element_plus-%238a2be2" />
+              src="https://img.shields.io/badge/UI-Element Plus-%238a2be2" />
         </div>
         <a
           class="flex items-center justify-center p-4 cursor-pointer"
@@ -99,6 +99,86 @@
           <Iconfont
             name="tiaozhuan"
             :size="22" />
+        </a>
+      </div>
+    </RepositoryItem>
+
+    <RepositoryItem
+        :name="t('personal.r5')"
+        :description="t('personal.r5')"
+        link="https://github.com/4545P/questionnaire"
+        class="h-[110px]">
+      <div class="flex flex-row">
+        <div class="flex-1">
+          {{ t('personal.recommend') }}
+          <div>{{ t('personal.r5_t1') }}</div>
+          <div>{{ t('personal.r5_t2') }}</div>
+        </div>
+        <a
+            class="flex items-center justify-center p-4 cursor-pointer"
+            href="https://github.com/4545P/questionnaire"
+            target="_blank">
+          <Iconfont
+              name="tiaozhuan"
+              :size="22" />
+        </a>
+      </div>
+    </RepositoryItem>
+
+    <RepositoryItem
+        :name="t('personal.r6')"
+        :description="t('personal.r6')"
+        transitionType="fromLeft"
+        link="https://github.com/4545P/questionnaireWeb"
+        class="h-[110px]">
+      <div class="flex flex-row">
+        <div class="basis-full flex flex-wrap flex-row gap-1">
+          <img
+              alt="Static Badge"
+              src="https://img.shields.io/badge/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6-Vue2-%236495ed" />
+          <img
+              alt="Static Badge"
+              src="https://img.shields.io/badge/%E8%84%9A%E6%9C%AC%E8%AA%9E%E8%A8%80-TypeScript-%25236495ed" />
+          <img
+              alt="Static Badge"
+              src="https://img.shields.io/badge/UI-Element Plus-%238a2be2" />
+        </div>
+        <a
+            class="flex items-center justify-center p-4 cursor-pointer"
+            href="https://github.com/4545P/questionnaireWeb"
+            target="_blank">
+          <Iconfont
+              name="tiaozhuan"
+              :size="22" />
+        </a>
+      </div>
+    </RepositoryItem>
+
+    <RepositoryItem
+        :name="t('personal.r7')"
+        :description="t('personal.r7')"
+        transitionType="fromTop"
+        link="https://github.com/4545P/qulingyu"
+        class="h-[110px]">
+      <div class="flex flex-row">
+        <div class="basis-full flex flex-wrap flex-row gap-1 ">
+          <img
+              alt="Static Badge"
+              src="https://img.shields.io/badge/%E8%84%9A%E6%9C%AC%E8%AA%9E%E8%A8%80-python-%25236495ed" />
+          <div class="invisible">
+            <img alt="Invisible Placeholder" src="https://via.placeholder.com/150" />
+          </div>
+          <div class="invisible">
+            <img alt="Invisible Placeholder" src="https://via.placeholder.com/150" />
+          </div>
+        </div>
+        <a
+            class="flex items-center justify-center p-4 cursor-pointer"
+            href="https://github.com/4545P/course_managementWeb"
+            target="_blank">
+          <Iconfont
+              name="tiaozhuan"
+              :size="22" />
         </a>
       </div>
     </RepositoryItem>
@@ -139,3 +219,9 @@ import Iconfont from '../../components/Iconfont/Iconfont.vue'
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 </script>
+
+<style scoped>
+.invisible {
+  visibility: hidden;
+}
+</style>
