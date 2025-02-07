@@ -174,7 +174,7 @@
         </div>
         <a
             class="flex items-center justify-center p-4 cursor-pointer"
-            href="https://github.com/4545P/course_managementWeb"
+            href="https://github.com/4545P/blue?tab=readme-ov-file"
             target="_blank">
           <Iconfont
               name="tiaozhuan"

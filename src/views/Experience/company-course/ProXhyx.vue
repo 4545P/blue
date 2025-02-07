@@ -1,23 +1,23 @@
 <template>
-  <ProjectWrap
-    class="pl-4"
-    :title="t('proXhyx.name')"
-    :btn-label="t('stack')"
-    :description="t('proXhyx.descriptiton')"
-  >
-    <template #lib>
-      <button class="my-btn info">微信小程序</button>
-      <button class="my-btn info">uni-app</button>
-      <button class="my-btn info">uView UI</button>
-    </template>
-    <ListWrap
-      :title="t('contributions')"
-      :list="lists"
-      inner
-      bold
-      type="ul"
-    />
-  </ProjectWrap>
+<!--  <ProjectWrap-->
+<!--    class="pl-4"-->
+<!--    :title="t('proXhyx.name')"-->
+<!--    :btn-label="t('stack')"-->
+<!--    :description="t('proXhyx.descriptiton')"-->
+<!--  >-->
+<!--    <template #lib>-->
+<!--      <button class="my-btn info">微信小程序</button>-->
+<!--      <button class="my-btn info">uni-app</button>-->
+<!--      <button class="my-btn info">uView UI</button>-->
+<!--    </template>-->
+<!--    <ListWrap-->
+<!--      :title="t('contributions')"-->
+<!--      :list="lists"-->
+<!--      inner-->
+<!--      bold-->
+<!--      type="ul"-->
+<!--    />-->
+<!--  </ProjectWrap>-->
 </template>
 
 <script setup lang="ts">
