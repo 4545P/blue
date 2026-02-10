@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  fri-element-plus:
+    specifier: ^1.0.1
+    version: 1.0.1(typescript@5.7.2)
   pinia:
     specifier: ^2.3.0
     version: 2.3.0(typescript@5.7.2)(vue@3.5.13)
@@ -1718,6 +1721,22 @@ packages:
   /fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
     dev: true
+
+  /fri-element-plus@1.0.1(typescript@5.7.2):
+    resolution: {integrity: sha512-IOgEWx6swPLHp4ZlNV518ttNUQzK1B+dC50ttt9TEyP6RXbKfxhaEihVMUdjg8HNeOFaQD4xA33HlUNU6Q1VbA==}
+    dependencies:
+      '@fortawesome/fontawesome-svg-core': 6.7.1
+      '@fortawesome/free-solid-svg-icons': 6.7.1
+      '@fortawesome/vue-fontawesome': 3.0.8(@fortawesome/fontawesome-svg-core@6.7.1)(vue@3.5.13)
+      '@popperjs/core': 2.11.8
+      async-validator: 4.2.5
+      axios: 1.7.9
+      lodash-es: 4.17.21
+      vue: 3.5.13(typescript@5.7.2)
+    transitivePeerDependencies:
+      - debug
+      - typescript
+    dev: false
 
   /fs-extra@11.2.0:
     resolution: {integrity: sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==}
