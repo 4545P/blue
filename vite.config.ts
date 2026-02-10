@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 import { compression } from 'vite-plugin-compression2'
 import { chunkSplitPlugin } from 'vite-plugin-chunk-split'
+// import vitePluginImportus from 'vite-plugin-importus'
 import prefetchPlugin from 'vite-plugin-bundle-prefetch';
 
 // https://vitejs.dev/config/
@@ -10,6 +11,13 @@ export default defineConfig({
     plugins: [
         vue(),
         compression(),
+        // vitePluginImportus([
+        //   {
+        //     libraryName: 'fri-element-plus',
+        //     libraryDirectory: 'dist/es',
+        //     style: 'css',
+        //   }
+        // ]),
         chunkSplitPlugin({
             strategy: 'default',
             customSplitting: {
