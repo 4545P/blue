@@ -10,12 +10,6 @@ export default defineConfig({
     plugins: [
         vue(),
         compression(),
-        // vitePluginImportus([
-        //   {
-        //     libraryDirectory: 'dist/es',
-        //     style: 'css',
-        //   }
-        // ]),
         chunkSplitPlugin({
             strategy: 'default',
             customSplitting: {
