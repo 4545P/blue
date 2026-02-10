@@ -53,5 +53,6 @@ const results = computed(() => [
   t('ginmao.l2'),
   t('ginmao.l3'),
   t('ginmao.l4'),
+  t('ginmao.l5'),
 ])
 </script>

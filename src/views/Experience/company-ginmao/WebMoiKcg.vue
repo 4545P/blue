@@ -38,5 +38,6 @@ const saasList = computed(() => [
   t('WebMoiKcg.d2'),
   t('WebMoiKcg.d3'),
   t('WebMoiKcg.d4'),
+  t('WebMoiKcg.d5'),
 ])
 </script>
