@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "vite build"
+    "dev": "vite",
+    "build": "pnpm install --no-frozen-lockfile && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "fri-element-plus": "^1.0.1",
