@@ -19,7 +19,7 @@ src="https://img.shields.io/badge/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80-TypeScrip
 alt="Static Badge"
 src="https://img.shields.io/badge/UI-fri_element_plus-%238a2be2" />
 
-本以为会用到 postcss，结果还真没在 template 里写 css = = 习惯了 TW 是真的爽。~~fri-element-plus 是之前练手的一个组件库项目顺便实践一下，看管们可自行去掉~~
+本以为会用到 postcss，结果还真没在 template 里写 css = = 习惯了 TW 是真的爽。
 在优化实践章节已去掉。
 
 ## 配置参考
