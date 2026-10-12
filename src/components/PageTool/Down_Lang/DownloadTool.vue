@@ -13,7 +13,7 @@ function downloadPdf() {
   let $el = document.createElement('a')
   $el.href = 'https://blue4545.netlify.app/java_laijiteng_2y.pdf'
   $el.target = '_blank'
-  $el.download = `賴紀滕-經驗2年-JAVA後端.pdf`
+  $el.download = `賴紀滕-經驗3年-JAVA後端.pdf`
   document.body.appendChild($el)
   $el.click()
   document.body.removeChild($el)

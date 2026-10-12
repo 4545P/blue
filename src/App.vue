@@ -44,6 +44,6 @@ import Personal from './views/Personal/Personal.vue'
 import Thanks from './views/Thanks/Thanks.vue'
 
 onMounted(() => {
-  document.title = '賴紀滕/2年/java/'
+  document.title = '賴紀滕/3年/java/'
 })
 </script>
